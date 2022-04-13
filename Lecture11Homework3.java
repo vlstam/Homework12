@@ -9,7 +9,7 @@ public class Lecture11Homework3 {
         int tryCode;
         System.out.println("Please enter PIN code: ");
         tryCode = scanner.nextInt();
-        for(int i = 0; i <= 3; i++){
+        for(int i = 0; i < 3; i++){
             if(tryCode == PIN && i < 3){
                 System.out.println("Correct password, welcome back!");
             } else if(tryCode != PIN && i < 3){
